@@ -46,7 +46,7 @@ const Modal = ({ id, outSideClick }) => {
     }
   };
   return (
-    <>
+    <div>
       <StyledButton $large $negative onClick={openModal}>
         open modal
       </StyledButton>
@@ -62,7 +62,7 @@ const Modal = ({ id, outSideClick }) => {
           </div>
         )}
       </Portal>
-    </>
+    </div>
   );
 };
 

@@ -23,7 +23,7 @@ function InputForm() {
   };
 
   return (
-    <>
+    <div>
       <label>
         Name
         <input
@@ -54,7 +54,7 @@ function InputForm() {
       >
         Save
       </StyledButton>
-    </>
+    </div>
   );
 }
 

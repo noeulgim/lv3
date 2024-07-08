@@ -60,7 +60,7 @@ const SelectBox = () => {
   }, [showOption]);
 
   return (
-    <>
+    <div>
       <StyledSelect
         onClick={() => setShowOption((prev) => !prev)}
         ref={selectToggleRef}
@@ -81,7 +81,7 @@ const SelectBox = () => {
           </StyledSelectOptions>
         </Portal>
       )}
-    </>
+    </div>
   );
 };
 

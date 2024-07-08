@@ -3,7 +3,7 @@ import { StyledButton } from "./styledButtons";
 
 function Buttons() {
   return (
-    <>
+    <div>
       <div className="primaryBtn wrap" style={{ display: "flex" }}>
         <StyledButton
           $large
@@ -56,7 +56,7 @@ function Buttons() {
           Small
         </StyledButton>
       </div>
-    </>
+    </div>
   );
 }
 
