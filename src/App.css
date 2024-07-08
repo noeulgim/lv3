@@ -1,5 +1,14 @@
 .App {
-  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: left;
+  width: 100vw;
+  height: 100vh;
+  padding: 5%;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .App-logo {
